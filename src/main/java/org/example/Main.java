@@ -11,6 +11,6 @@ public class Main {
 
         System.out.println(Challenge1.numberString("Type b"));
 
-        System.out.println(Challenge1.VerifyIsPresent("Uno", List.of("prueba","Dos","Uno")));
+        System.out.println(Challenge1.verifyIsPresent("Uno", List.of("prueba","Dos","Uno")));
     }
 }
