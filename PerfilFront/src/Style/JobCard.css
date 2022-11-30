@@ -1,0 +1,48 @@
+.jobContent{
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    justify-content: center;
+}
+
+.jobCardContent {
+    display: flex;
+    min-width: 300px;
+    max-width: 500px;
+    margin: 1%;
+    flex: 0 1 calc(30%);
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.12);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(2.8px);
+    -webkit-backdrop-filter: blur(2.8px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: white;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.jobCardImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    padding: 10px;
+}
+
+.jobCardInfo {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1.1em;
+    padding-left: 5%;
+}
+
+.companyIcon {
+    max-width: 100%;
+    padding: 2px;
+    background-color: white;
+    border-radius: 20px;
+
+}
